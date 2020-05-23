@@ -43,7 +43,7 @@ def Autotest():
     test_file = open("F:/prog/autotest.txt", "r")
     flag1 = 0
     flag1 = possibility(test_file)
-    if flag1 <= 2:
+    if flag1 <= 3:
         print("Autotest passed")
     else:
         print("Autotest not passed")
