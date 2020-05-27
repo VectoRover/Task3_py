@@ -4,6 +4,7 @@ try:
     file = open(path_to_file, "r")
 except Exception:
     print("the file is missing")
+    exit(1)
 
 try:
     if os.stat(path_to_file).st_size > 0:
